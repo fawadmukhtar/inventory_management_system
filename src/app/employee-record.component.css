@@ -1,0 +1,62 @@
+/*ul.employees-record{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.employees-record li{
+	margin-top: 4px;
+	cursor: pointer;
+}
+
+ul.employees-record li span.employee-id{
+	background-color: #4e93af;
+    padding: 8px 0;
+    border-radius: 5px 0 0 5px;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+ul.employees-record li span.employee-fname{
+	background-color: #eee;
+    padding: 8px;
+    border-radius: 0 5px 5px 0;
+    color: #4e93af;
+    font-weight: bold;
+    display: inline-block;
+    width: 176px;
+    text-align: center;
+}
+
+h2.employees-title { 
+	color: #4e93af;
+	padding: 6px 12px;
+	display: inline-block;
+	border-radius: 6px;
+	padding-left: 0;
+}
+
+span.view-detail {
+	background-color: #4e93af;
+    color: #ccc;
+    width: 89px;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+span.view-detail:hover {
+	background-color: #ccc;
+	color: #4e93af;
+}*/
+
+div.add-new a {
+	text-decoration: none;
+}
+
+a.delete{
+	cursor: pointer;
+}

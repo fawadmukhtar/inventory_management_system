@@ -1,0 +1,47 @@
+.employee {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.employee h2.employee-title {
+    color: #4e93af;
+    display: inline-block;
+}
+
+div.employee .employee-record {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+}
+
+span.employee-label {
+    width: 128px;
+    margin-top: 4px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+div.employee span.label-data {
+    width: 200px;
+    display: inline-block;
+    padding: 6px 0;
+    color: #4e93af;
+    font-weight: bold;
+    margin-left: 62px;
+}
+
+
+button.go-back {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+button.edit-btn  {
+    margin-top: 10px;
+    padding: 6px 26px;
+}
+
+button.delete-btn  {
+    margin-top: 10px;
+    padding: 6px 20px;
+}

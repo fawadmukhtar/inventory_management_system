@@ -1,0 +1,12 @@
+div.employee-record{
+	width: 50%;
+	margin: 10px 30px ;
+}
+
+label.field-label{
+	margin-bottom: 5px;
+}
+
+div.field-group{
+	margin-top: 5px;
+}

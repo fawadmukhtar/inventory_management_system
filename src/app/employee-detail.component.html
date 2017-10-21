@@ -1,0 +1,43 @@
+<div class="employee" *ngIf="selectedEmployee" >
+	<h2 class="employee-title"> {{selectedEmployee.firstName}} {{selectedEmployee.lastName}}  Record</h2>
+	<div class="employee-record"> 
+		<span class="employee-label">EmployeeID: </span>
+		<span class="label-data"> {{selectedEmployee.id}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">First Name:</span>
+		<span class="label-data"> {{selectedEmployee.firstName}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Last Name: </span>
+		<span class="label-data"> {{selectedEmployee.lastName}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Date of Birth:</span>
+		<span class="label-data"> {{selectedEmployee.dob}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Date of Joining:</span>
+		<span class="label-data"> {{selectedEmployee.dojoining}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Leave Avail:</span>
+		<span class="label-data"> {{selectedEmployee.leaveAvail}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Phone:</span>
+		<span class="label-data"> {{selectedEmployee.phone}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Age: </span>
+		<span class="label-data"> {{selectedEmployee.age}} </span>
+	</div>
+	<div class="employee-record"> 
+		<span class="employee-label">Job Description: </span>
+		<span class="label-data"> {{selectedEmployee.jobDescp}} </span>
+	</div>
+</div>
+
+<button class="btn btn-primary go-back" (click)="goBack()" >Go Back</button>
+<button class="btn btn-primary edit-btn" (click)="edit()" >Edit</button>
+<button class="btn btn-primary delete-btn" (click)="delete()" >Delete</button>
